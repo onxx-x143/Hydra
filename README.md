@@ -81,11 +81,13 @@ Custom attack builder
 Logging & resume support
 
 # SSH Attack
+```
 ./Hydra.sh -t ssh -u users.txt -p passwords.txt 192.168.1.100
-
+```
 # HTTP Login Form
+```
 ./Hydra.sh -t http-post-form -u admin -P rockyou.txt example.com
-
+```
 📁 File Structure
 Hydra/
 ├── README.md          ← This file (Detailed Guide)
